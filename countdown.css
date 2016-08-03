@@ -95,12 +95,6 @@ h1:hover{
 	//margin-right: auto;
 }
 
-.inputArea {
-	width: 100%;
-	margin-top: 30px;
-	padding-left: 35%;
-}
-
 #time {
 	width:25%;
 	margin-right: auto;
@@ -112,82 +106,6 @@ h1:hover{
 	font-size:30px;
 	text-align: center;
 	color: #FFF2E7;
-}
-
-input[type="text"] {
-	background-color: inherit;
-	box-shadow: none;
-	outline: none;
-	border: 1px solid white;
-	color:white !important;
-	appearance: none;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	border: 2.5px solid white;
-	border-radius: 0.3em;
-}
-
-input:focus::-webkit-input-placeholder {
- 	color:transparent;
- 	font-weight: lighter;
-}
-
-input:focus:-moz-placeholder { 
-	color:transparent;
- 	font-weight: lighter;
-}
-
-input:focus::-moz-placeholder {
-	color:transparent;
- 	font-weight: lighter;
-}
-
-input:focus:-ms-input-placeholder {
-	color:transparent;
- 	font-weight: lighter;
-}
-
-#start {
-	color: #ffffff;
-	font-family: Raleway;
-	display: block;
-	margin: 0 auto;
-	margin-top: 6%;
-	width: auto;
-	height: auto;
-	font-size: 30px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	padding-left: 30px;
-	padding-right: 30px;
-	background: transparent none repeat scroll 0% 0%;
-	font-weight: bolder;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	border: 3px solid white;
-	border-radius: 0.2em;
-	box-shadow: none;
-	outline: 0;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	transition-property: all;
-	transition-duration: 0.5s;
-	transition-timing-function: linear;
-}
-
-#start:hover {
-	background-color: #004687;
-	color: #E9BC1B;
-}
-#minus {
-	font-family: 'DSDIGI';
-	text-align: center;
-	padding-top: 4%;
-	font-size: 350px;
-	color: white;
-	-webkit-user-select: none;
-	-moz-user-select: none;
 }
 
 #timer {
@@ -203,10 +121,6 @@ input:focus:-ms-input-placeholder {
 	-moz-user-select: none;
 }
 
-#minus {
-	color:red;
-	display:none;
-}
 #point {
 	-moz-animation: blink 1s ease infinite;
     -webkit-animation: blink 1s ease infinite;
@@ -245,113 +159,4 @@ input:focus:-ms-input-placeholder {
         opacity: 1.0;
         text-shadow: 0 0 20px #00c6ff;
     };
-}
-
-.icons {
-	margin-top: 20px;
-	text-align: center;
-}
-
-.fa {
-	padding-left: 20px;
-	margin-bottom: -15%;
-}
-
-.fa-twitter {
-	color: white;
-	font-size: 40px;
-	transition-property: all;
-	transition-duration: 0.3s;
-	transition-timing-function: linear;
-}
-
-.fa-twitter:hover {
-	color: #55acee;
-}
-
-.fa-facebook-official {
-	color: white;
-	font-size: 40px;
-	transition-property: all;
-	transition-duration: 0.3s;
-	transition-timing-function: linear;
-}
-
-.fa-facebook-official:hover {
-	color:#3b5998;
-}
-
-.fa-github {
-	color: white;
-	font-size: 40px;
-	transition-property: all;
-	transition-duration: 0.3s;
-	transition-timing-function: linear;
-}
-
-.fa-github:hover {
-	color:#999;
-}
-
-.fa-google-plus {
-	color: white;
-	font-size: 40px;
-	transition-property: all;
-	transition-duration: 0.3s;
-	transition-timing-function: linear;
-}
-
-.fa-google-plus:hover {
-	color:#dc4e41;
-}
-
-footer {
-	height:auto;
-	text-align: center;
-	font-size: 30px;
-	padding-top: 2%;
-	font-family: 'Allura';
-	font-weight: bold;
-}
-
-.heart {
-	color: white;
-	transition-property: all;
-	transition-duration: 0.7s;
-	transition-timing-function: ease-out;
-}
-
-.heart:hover {
-	color: #B81D18;
-}
-
-a {
-	text-decoration: none;
-	color: #F8DC0B;
-}
-
-h3 {
-	color: #F8DC0B;
-}
-
-.input {
-	position:fixed;
-	bottom:0;
-	right:0;
-	color:white;
-}
-
-.background-container 
-{
-	height: 250px;
-	width: 250px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-}
-
-.background-container img
-{
-	height: 100%;
-	width: 100%;
 }
